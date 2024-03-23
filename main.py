@@ -121,9 +121,6 @@ def decode_message(morse_code):
     Returns:
     - string: A message containing the decoded morse code such as 'DEF GH'
 
-    Raises:
-    - ExceptionType: Explanation of under what condition this exception is raised, if any.
-
     Example:
     message = decode_message('-.. . ..-.   --. ....')
     print(message) # DEF GH
@@ -156,9 +153,6 @@ def remove_time_outliers(times):
 
     Returns:
     - list: A list of times in seconds such as [1.2, 3.2, 5.2, 1.2]
-
-    Raises:
-    - ExceptionType: Explanation of under what condition this exception is raised, if any.
 
     Example:
     new_times = remove_time_outliers([1.2, 3.2, 5.2, 1.2, 45.5])
